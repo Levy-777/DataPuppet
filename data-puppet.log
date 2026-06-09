@@ -1,0 +1,65 @@
+2026-06-03 21:21:06,573 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-03 21:21:06,604 - INFO - Processing request of type ListToolsRequest
+2026-06-03 21:28:32,143 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-03 21:28:32,199 - INFO - Processing request of type ListToolsRequest
+2026-06-03 21:28:48,141 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-03 21:28:48,166 - INFO - Processing request of type ListToolsRequest
+2026-06-04 15:56:24,950 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-04 15:56:24,985 - INFO - Processing request of type ListToolsRequest
+2026-06-04 16:00:07,851 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-04 16:00:07,879 - INFO - Processing request of type ListToolsRequest
+2026-06-04 16:00:10,574 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-04 16:00:10,602 - INFO - Processing request of type ListToolsRequest
+2026-06-04 16:00:49,399 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-04 16:00:49,426 - INFO - Processing request of type ListToolsRequest
+2026-06-04 17:08:17,510 - INFO - Processing request of type CallToolRequest
+2026-06-04 17:08:17,533 - INFO - Requisitando página: https://assessments.gupy.io/behavioral/aaed32bc7279492a917eaf3e8c0bed27/results/recruiter?language=pt | Seletor: body
+2026-06-04 17:08:17,533 - INFO - Iniciando Playwright Headless (Cold Start)...
+2026-06-04 17:08:23,897 - INFO - Browser inicializado e aquecido com sucesso.
+2026-06-04 17:08:33,889 - INFO - Extração concluída com sucesso (2824 caracteres).
+2026-06-04 18:07:31,756 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-04 18:07:31,786 - INFO - Processing request of type ListToolsRequest
+2026-06-04 18:07:44,216 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-04 18:07:44,243 - INFO - Processing request of type ListToolsRequest
+2026-06-04 20:21:37,144 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-04 20:21:37,197 - INFO - Processing request of type ListToolsRequest
+2026-06-04 20:43:35,203 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-04 20:43:35,263 - INFO - Processing request of type ListToolsRequest
+2026-06-05 10:59:31,165 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-05 10:59:31,223 - INFO - Processing request of type ListToolsRequest
+2026-06-06 17:32:39,300 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-06 17:32:39,340 - INFO - Processing request of type ListToolsRequest
+2026-06-06 17:33:20,053 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-06 17:33:20,099 - INFO - Processing request of type ListToolsRequest
+2026-06-06 17:33:48,601 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-06 17:33:48,628 - INFO - Processing request of type ListToolsRequest
+2026-06-06 17:55:21,426 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-06 17:55:21,455 - INFO - Processing request of type ListToolsRequest
+2026-06-06 17:59:29,481 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-06 17:59:29,560 - INFO - Processing request of type ListToolsRequest
+2026-06-06 18:00:32,220 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-06 18:00:32,245 - INFO - Processing request of type ListToolsRequest
+2026-06-06 20:13:35,112 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-06 20:13:35,149 - INFO - Processing request of type ListToolsRequest
+2026-06-06 20:14:13,023 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-06 20:14:13,050 - INFO - Processing request of type ListToolsRequest
+2026-06-08 19:27:11,012 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-08 19:27:11,054 - INFO - Processing request of type ListToolsRequest
+2026-06-08 22:24:38,315 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-08 22:24:38,341 - INFO - Processing request of type ListToolsRequest
+2026-06-08 22:25:13,440 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-08 22:25:13,467 - INFO - Processing request of type ListToolsRequest
+2026-06-09 13:03:28,808 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-09 13:03:28,866 - INFO - Processing request of type ListToolsRequest
+2026-06-09 13:03:36,309 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-09 13:03:36,336 - INFO - Processing request of type ListToolsRequest
+2026-06-09 13:03:44,778 - INFO - Servidor MCP Data-Puppet inicializado.
+2026-06-09 13:03:44,811 - INFO - Processing request of type ListToolsRequest
+2026-06-09 13:05:34,953 - INFO - Processing request of type CallToolRequest
+2026-06-09 13:05:34,955 - WARNING - Tentativa de injeção ou input inválido bloqueada: 1 validation error for DatasetArgs
+filepath
+  Value error, Formato perigoso ou inválido. Permitidos: ('.csv', '.tsv', '.parquet') [type=value_error, input_value='C:\\Users\\Migra Tech\\D...\\dataset_sorvetes.xlsx', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+2026-06-09 13:06:21,998 - INFO - Processing request of type CallToolRequest
+2026-06-09 13:06:22,000 - INFO - Executando query no arquivo: C:\Users\Migra Tech\Desktop\code\dataset_sorvetes.csv
+2026-06-09 13:06:27,788 - INFO - Query executada com sucesso no subprocesso isolado.

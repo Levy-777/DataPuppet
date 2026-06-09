@@ -63,7 +63,7 @@ class DatasetArgs(BaseModel):
 
     @field_validator('filepath')
     def validate_extension(cls, v):
-        valid_exts = ('.csv', '.tsv', '.parquet')
+        valid_exts = ('.csv', '.tsv', '.parquet', '.xlsx', '.sql', '.sqlite', '.db')
         if not v.lower().endswith(valid_exts):
             raise ValueError(f"Formato perigoso ou inválido. Permitidos: {valid_exts}")
         if not os.path.exists(v):
@@ -102,6 +102,10 @@ import warnings
 warnings.filterwarnings('ignore')
 try:
     with duckdb.connect(':memory:') as conn:
+        conn.execute("INSTALL spatial;")
+        conn.execute("LOAD spatial;")
+        conn.execute("INSTALL sqlite;")
+        conn.execute("LOAD sqlite;")
         conn.execute("PRAGMA threads=1")
         conn.execute("PRAGMA enable_progress_bar=false")
         res = conn.execute(\"\"\"{safe_query}\"\"\").fetchdf()
